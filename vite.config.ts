@@ -10,15 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [
-        react({
-          // Optimizar React para producción
-          babel: {
-            plugins: [
-              // Remover console.log en producción
-              mode === 'production' && ['babel-plugin-transform-remove-console', { exclude: ['error', 'warn'] }]
-            ].filter(Boolean)
-          }
-        })
+        react()
       ],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
