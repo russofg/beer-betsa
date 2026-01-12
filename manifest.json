@@ -1,0 +1,21 @@
+{
+  "name": "Betsa - The Midnight Stout",
+  "short_name": "Betsa",
+  "description": "Brewed for the depths of the night. Rich, creamy, and infinite.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://okxintkomeixksptlpcz.supabase.co/storage/v1/object/sign/beer/Image_202601111917.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kMGUzZmZjNy1mMDYyLTQyNjMtOGExMS00YWEwZjdhMzYyNjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJiZWVyL0ltYWdlXzIwMjYwMTExMTkxNy5qcGVnIiwiaWF0IjoxNzY4MTczMDM1LCJleHAiOjE3Njg3Nzc4MzV9.YyTxQ_TX2X7aEqHMFaiiqumJR0KBlFGIG41zbhAIfH4",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": []
+}
